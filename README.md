@@ -41,7 +41,7 @@ which faces need compilation.
 **Manual install:**
 
 ```bash
-git clone --depth 1 https://github.com/facessh/manyfaced.git ~/manyfaced
+git clone --depth 1 https://github.com/faces-sh/manyfaced.git ~/manyfaced
 cp -r ~/manyfaced/<skill-name> ~/.claude/skills/<skill-name>
 ```
 
@@ -50,7 +50,7 @@ section listing which faces need compilation and where the FACE.md files are.
 
 ## Requirements
 
-- [faces-skill](https://github.com/facessh/faces-skill) — the `/faces`, `/face`,
+- [faces-skill](https://github.com/faces-sh/faces-skill) — the `/faces`, `/face`,
   `/faceteam`, and `/manyface` slash commands
 - [faces CLI](https://www.npmjs.com/package/faces-cli) — `npm install -g faces-cli`
 - A [faces.sh](https://faces.sh) account (Free or Connect plan)
@@ -112,10 +112,10 @@ version: `git clone --branch v1.0.0 ...`. Breaking changes to the circuit
 
 ### How to create a manyfaced skill
 
-Use the `/manyface` slash command from [faces-skill](https://github.com/facessh/faces-skill).
+Use the `/manyface` slash command from [faces-skill](https://github.com/faces-sh/faces-skill).
 It walks you through decomposing a skill into roles, casting faces, and
 producing the output directory. Choose "publish" at the end to prep for a PR.
 
 ---
 
-[faces.sh](https://faces.sh) · [faces-skill](https://github.com/facessh/faces-skill) · [docs](https://docs.faces.sh)
+[faces.sh](https://faces.sh) · [faces-skill](https://github.com/faces-sh/faces-skill) · [docs](https://docs.faces.sh)
